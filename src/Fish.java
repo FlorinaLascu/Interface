@@ -31,4 +31,16 @@ public class Fish implements Prey,Predator{
     public  String toString(){
         return "SPECIA: "+ this.specia+ " REGIUNEA: " + this.regiune+ " GREUTATE: " + this.greutate;
     }
+
+    public int getGreutate() {
+        return greutate;
+    }
+
+    public String getSpecia() {
+        return specia;
+    }
+
+    public String getRegiune() {
+        return regiune;
+    }
 }
