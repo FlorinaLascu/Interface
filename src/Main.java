@@ -12,5 +12,7 @@ public class Main {
         fish.hunt();
         fish.flee();
         System.out.println(fish.toString());
+
+        System.out.println("Exemplu interfete");
     }
 }
