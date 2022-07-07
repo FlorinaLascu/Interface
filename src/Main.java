@@ -16,7 +16,9 @@ public class Main {
         System.out.println("Exemplu interfete");
 
         Prey pr = new Fish("Platica", "Bega", 150);
+
         pr.flee();
+
         System.out.println(pr.toString());
     }
 }
